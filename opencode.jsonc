@@ -1,0 +1,42 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "theme": "tokyonight",
+    "autoupdate": true,
+    "share": "disabled",
+    "tui": {
+        "scroll_speed": 10
+    },
+    "provider": {
+        "amazon-bedrock": {
+            "options": {}
+        }
+    },
+    "disabled_providers": [
+        "github-copilot",
+        "opencode",
+    ],
+    "formatter": {},
+    "mcp": {
+        "Notion": {
+            "type": "remote",
+            "url": "https://mcp.notion.com/mcp",
+            "enabled": false,
+        },
+        "Asana": {
+            "type": "remote",
+            "url": "https://mcp.asana.com/sse",
+            "enabled": false,
+        },
+        "GitHub": {
+            "type": "remote",
+            "url": "https://api.githubcopilot.com/mcp",
+            "enabled": false,
+        },
+        "sentry": {
+            "type": "remote",
+            "url": "https://mcp.sentry.dev/mcp",
+            "enabled": false,
+        }
+    },
+    "lsp": {},
+}

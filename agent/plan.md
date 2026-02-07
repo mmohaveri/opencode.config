@@ -1,0 +1,4 @@
+---
+model: "amazon-bedrock/global.anthropic.claude-opus-4-5-20251101-v1:0"
+---
+
